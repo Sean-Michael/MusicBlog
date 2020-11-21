@@ -1,0 +1,115 @@
+﻿/*
+ * Author: Sean-Michael Riesterer
+ * Date: 11/20/2020
+ * Some of this code is adapted from my submission for CS290 Assignment 2 but is entirely my own work.
+ */
+
+body
+{
+    font-family: Georgia;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.site-title {
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+    margin: 0 0 0 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#posts {
+    position: relative;
+    top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 250px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.post {
+    margin: 10px;
+    width: 60%;
+    max-width: 850px;
+}
+
+.post-contents {
+   
+
+}
+
+.post-info-container {
+    
+}
+
+.post-image-container > img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center top;
+}
+
+.post-image-container {
+    width: 75%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-credit {
+    position: relative;
+    bottom: 1em;
+}
+
+.image-credit a, a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: midnightblue;
+}
+
+.image-credit a:hover {
+    text-decoration: underline;
+}
+
+.post-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.post-summary {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: smaller;
+    text-align: center;
+    color: gray;
+}
+
+.post-author {
+    text-align: center;
+
+}
+
+.post-date {
+    text-align: center;
+    color: grey;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+.post-body {
+    font-size: 20px;
+    line-height: 2.0;
+}
