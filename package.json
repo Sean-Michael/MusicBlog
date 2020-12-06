@@ -1,0 +1,24 @@
+{
+  "name": "webdev-final-project",
+  "version": "1.0.0",
+  "description": "cs290 final project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Michael/MusicBlog.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": ";2~https://github.com/Sean-Michael/MusicBlog/issues"
+  },
+  "homepage": "https://github.com/Sean-Michael/MusicBlog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6"
+  }
+}
